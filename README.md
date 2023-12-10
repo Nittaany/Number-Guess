@@ -28,7 +28,4 @@ To play the game:
 ### Preview:
 ![Game Preview](preview.png)
 
-### License:
-This project is licensed under the [MIT License](LICENSE).
 
-Feel free to contribute, share, or modify this game as you like! Enjoy guessing the numbers!
