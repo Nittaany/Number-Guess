@@ -26,7 +26,7 @@ header {
 }
 
 main {
-  height: 65vh;
+  height: 50vh;
   color: #eee;
   display: flex;
   align-items: center;
@@ -88,8 +88,8 @@ h1 {
   font-family: inherit;
   color: inherit;
   font-size: 5rem;
-  padding: 2.5rem;
-  width: 25rem;
+  padding: 2rem;
+  width: 25vw;
   text-align: center;
   display: block;
   margin-bottom: 3rem;
@@ -119,3 +119,31 @@ h1 {
   margin-bottom: 2rem;
 }
 
+@media only screen and (max-width:600px) {
+  h1{
+    top:25%;
+  }
+  p{
+    font-size: smaller;
+    margin: 2px;
+  }
+  .between{
+    position: relative;
+    text-align: center;
+    margin-left:15px ;
+    z-index: 3;
+    top:18.3vh;
+  }
+  .again{
+    /* border-radius: %; */
+    font-size:xx-small;
+    position: relative;
+    top:33.2vh;
+    left:80vw;
+    background-color: rgb(99, 99, 1);
+    padding: 1cap;
+  }
+  .guess{
+    font-size: large;
+  }
+}
